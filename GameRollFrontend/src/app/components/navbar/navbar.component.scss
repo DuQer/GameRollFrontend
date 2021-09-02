@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+a{
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+.collapse{
+  margin: auto;
+}
+.container-fluid{
+  z-index: 9;
+  position: -webkit-sticky;
+  position: sticky;
+  overflow: hidden;
+  background-color: #0E0E0E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item{
+  padding: 0 0 0 40px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+}
+.navbar-custom {
+  background-color: #0E0E0E;
+}
+a.nav-link.navbar-text{
+  color: #CC0000;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+a.nav-link.navbar-text:hover{
+  color: lightgray;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+a.nav-link.navbar-text:focus{
+  color: #990000;
+  font-weight: bold;
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+
+img {
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+}
+
+.logout {
+  font-size: .8em;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  right: -18px;
+  bottom: -4px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+}
+
+.button {
+  text-decoration: none;
+  float: right;
+  margin-top: 15px;
+  color: white;
+  width: 40px;
+  background-color: black;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden;
+}
+a.button{
+  width: 100px;
+}
+
+a:hover .logout{
+  opacity: .9;
+}
+
